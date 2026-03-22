@@ -8,9 +8,14 @@
   <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=wty2019wty&show_icons=true&locale=cn">
 </picture>
 
+## 👀 访客统计
+
+![Visitor Count](https://visit-counter.vercel.app/counter?page=https://github.com/wty2019wty&s=1)
+
+---
 
 ### 📫 联系方式
 - 直接在 GitHub 交流即可，欢迎查看我的项目～
-
+- Web：https://9981000.xyz/
 ---
 ✨ 这是我的个人主页专属仓库
