@@ -5,9 +5,9 @@
 
 ### 📊 GitHub 统计
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=wty2019wty&show_icons=true&theme=dark&locale=cn">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=wty2019wty&show_icons=true&theme=default&locale=cn">
-  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=wty2019wty&show_icons=true&locale=cn">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.shion.dev/api?username=wty2019wty&show_icons=true&theme=dark&locale=cn">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.shion.dev/api?username=wty2019wty&show_icons=true&theme=default&locale=cn">
+  <img alt="GitHub Stats" src="https://github-readme-stats.shion.dev/api?username=wty2019wty&show_icons=true&locale=cn">
 </picture>
 
 
