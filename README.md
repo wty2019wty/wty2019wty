@@ -17,3 +17,9 @@
 
 
 ### ✨ 这是我的个人主页专属仓库
+**主页访问次数**
+
+
+![VisitorCount](https://count.getloli.com/@wty2019wty?name=wty2019wty&theme=miku&padding=7&offset=0&align=top&scale=0.5&pixelated=0&darkmode=auto)
+
+![VisitorCount](https://count.getloli.com/@wty2019wty?name=wty2019wty&theme=minecraft&padding=7&offset=0&align=top&scale=0.5&pixelated=0&darkmode=auto)
