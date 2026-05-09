@@ -9,6 +9,11 @@
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.shion.dev/api?username=wty2019wty&show_icons=true&theme=default&locale=cn">
   <img alt="GitHub Stats" src="https://github-readme-stats.shion.dev/api?username=wty2019wty&show_icons=true&locale=cn">
 </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile/stats-light.svg">
+  <img alt="GitHub Stats" src="profile/stats-dark.svg">
+</picture>
 
 
 ### 📫 联系方式
