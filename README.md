@@ -2,7 +2,7 @@
 - 喜欢折腾技术、写实用工具、研究网络与服务端，一直在学习和折腾新东西
 - 偶尔会玩玩 Minecraft
 
-
+<!--
 ### 📊 GitHub 统计
 
 <picture>
@@ -10,13 +10,17 @@
   <source media="(prefers-color-scheme: light)" srcset="profile/stats-light.svg">
   <img alt="GitHub Stats" src="profile/stats-dark.svg">
 </picture>
+-->
 
 
 ### 📫 联系方式
 - 直接在 GitHub 交流即可，欢迎查看我的项目～
 
-
+<!--
 ### ✨ 这是我的个人主页专属仓库
+-->
+--------------------
+
 **主页访问次数**
 
 ![VisitorCount](https://count.getloli.com/@wty2019wty?name=wty2019wty&theme=minecraft&padding=7&offset=0&align=top&scale=0.5&pixelated=0&darkmode=auto)
