@@ -1,0 +1,63 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 16 * * 0"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate stats card Dark
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&locale=cn
+          path: profile/stats-dark.svg
+          token: ${{ secrets.STATS_PAT }}
+
+      - name: Generate stats card Light
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=default&locale=cn
+          path: profile/stats-light.svg
+          token: ${{ secrets.STATS_PAT }}
+
+      - name: Generate top languages card Dark
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=dark&locale=cn
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.STATS_PAT }}
+
+      - name: Generate top languages card Light
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=default&locale=cn
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.STATS_PAT }}
+
+      - name: Generate pin card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=readme-tools&repo=github-readme-stats
+          path: profile/pin-readme-tools-github-readme-stats.svg
+          token: ${{ secrets.STATS_PAT }}
+
+      - name: Auto Commit & Push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update README cards svg
+          file_pattern: profile/*.svg
+          branch: main
