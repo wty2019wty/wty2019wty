@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">wty2019wty &#30340; GitHub &#32479;&#35745;&#25968;&#25454;, Rank: B</title>
-        <desc id="descId">获标星数: 10, 累计提交总数  (去年) : 504, 发起的 PR 总数: 104, 提出的 issue 总数: 28, 贡献的项目数（去年）: 19</desc>
+        <desc id="descId">获标星数: 10, 累计提交总数  (去年) : 520, 发起的 PR 总数: 104, 提出的 issue 总数: 28, 贡献的项目数（去年）: 19</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 131.11160874653604;
+        stroke-dashoffset: 130.04982580879704;
       }
     }
   
@@ -177,7 +177,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >504</text>
+      >520</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
